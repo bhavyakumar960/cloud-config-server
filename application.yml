@@ -16,3 +16,7 @@ microservice:
     endpoints:
       endpoint:
         url1: http://ORDER-SERVICE/api/order/bookOrder   # this is the url of order-service, that we use in any service.
+  restaurant-service:
+    endpoints:
+      endpoint:
+        url1: http://RESTAURANT-SERVICE/api/restaurant/orders/status/   # this is the url of restaurant-service, that we use in any service.
