@@ -20,3 +20,7 @@ microservice:
     endpoints:
       endpoint:
         url1: http://RESTAURANT-SERVICE/api/restaurant/orders/status/   # this is the url of restaurant-service, that we use in any service.
+  iam-service:
+    endpoints:
+      endpoint:
+        url1: http://IDENTITY-SERVICE/iam/api/validate-token   # this is the url of iam-service, that we use in any service.
