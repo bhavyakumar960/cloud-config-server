@@ -23,4 +23,5 @@ microservice:
   iam-service:
     endpoints:
       endpoint:
-        url1: http://IDENTITY-SERVICE/iam/api/validate-token   # this is the url of iam-service, that we use in any service.
+        #url1: http://IDENTITY-SERVICE/iam/api/validate-token   # this is the url of iam-service, that we use in any service.
+        url1: http://localhost:9020/iam/api/validate-token
